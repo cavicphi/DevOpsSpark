@@ -12,7 +12,7 @@ public class App {
 
     public static void main(String[] args) {
         Spark.get("/welcome", (req, res) -> {
-            return "Hallo DevOps";
+            return "Hallo Philip";
         });
     }
 }
